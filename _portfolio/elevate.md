@@ -27,6 +27,6 @@ On the technical side:
 - Played a key role in setting up a data warehouse and designed, shipped, and analyzed 20+ A/B experiments (SQL, LookML).
 
 On the management side:
-- Reported to the CEO and managed up to 3 teams (around 10 people).
+- Reported to the CEO and managed 3 teams (around 10 people).
 - Designed engineering career ladder, interview and onboarding processes.
 - Implemented employee development programs, including Brown Bag Talks and 5% Days.

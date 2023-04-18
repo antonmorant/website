@@ -26,7 +26,7 @@ description: >-
   teaching what I know and learning what I don’t.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://morant.dev"
-github_username:  antonmorant
+github_username: antonmorant
 linkedin_username: antonmorant
 
 # Build settings
@@ -53,6 +53,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - README.md
 
 collections:
   portfolio:
