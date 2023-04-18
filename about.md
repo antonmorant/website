@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 {: .float-left }
-![Author](/images/anton.jpg)
+![Author](/images/anton_woods.jpg)
 
 Hi! I'm Antón, a San Francisco-based software engineer with a passion for solving problems and building cool stuff. During the last 12 years in the industry I have worked on different technical areas including mobile development, backend, databases, data engineering & analytics, people management & product management.
 

@@ -5,5 +5,13 @@
 .float-left {
 	float: left;
 	margin-right: 1em;
-	margin-down: 1em
+	margin-down: 1em;
+	max-width: 40%;
+}
+
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
 }
