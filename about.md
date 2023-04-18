@@ -4,6 +4,10 @@ title: About
 permalink: /about/
 ---
 
+<div style="float: left; margin-right: 1em; margin-down: 1em">
+	{{ "![Author](/images/anton.jpg)" | markdownify }}
+</div>
+
 Hi! I'm Antón, a San Francisco-based software engineer with a passion for solving problems and building cool stuff. During the last 12 years in the industry I have worked on different technical areas including mobile development, backend, databases, data engineering & analytics, people management & product management.
 
 Some highlights of my previous experience includes working on and shipping mobile applications such as Elevate, Balance and PuzzlePal, which have won several awards including Apple's App of the Year. If you're interested in learning more about my past projects, please check out my [portfolio](/portfolio).
