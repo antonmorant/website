@@ -55,6 +55,7 @@ plugins:
 #   - vendor/ruby/
 
 exclude:
+  - docs
   - README.md
 
 collections:
