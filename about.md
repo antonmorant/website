@@ -4,9 +4,8 @@ title: About
 permalink: /about/
 ---
 
-<div style="float: left; margin-right: 1em; margin-down: 1em">
-	{{ "![Author](/images/anton.jpg)" | markdownify }}
-</div>
+{: .float-left }
+![Author](/images/anton.jpg)
 
 Hi! I'm Antón, a San Francisco-based software engineer with a passion for solving problems and building cool stuff. During the last 12 years in the industry I have worked on different technical areas including mobile development, backend, databases, data engineering & analytics, people management & product management.
 
