@@ -10,5 +10,6 @@ task :deploy do
   `rm -rf docs`
   `cp -r _site docs`
   `mv CNAME_tmp docs/CNAME`
-  `git commit docs -m "Copying latest version of the website to docs/ for deploying."`
+  `git add docs`
+  `git commit docs -m "[DEPLOY] Copying latest version of the website to docs/ for deploying."`
 end
