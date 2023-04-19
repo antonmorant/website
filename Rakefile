@@ -8,4 +8,5 @@ task :deploy do
   `jekyll build`
   `rm -rf docs`
   `cp -r _site docs`
+  `git commit docs -m "Copying latest version of the website to docs/ for deploying."`
 end
