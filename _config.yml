@@ -24,7 +24,7 @@ email: hello@morant.dev
 description: >-
   Software Engineer with a passion for building beautiful things, working with people,
   teaching what I know and learning what I don’t.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/website"
 url: "https://morant.dev"
 github_username: antonmorant
 linkedin_username: antonmorant
