@@ -64,3 +64,6 @@ collections:
     output: true
     sort_by: index
     permalink: /portfolio/:title
+
+sass:
+  quiet_deps: true  # Do not log warnigns from dependencies
