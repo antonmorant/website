@@ -59,6 +59,12 @@ exclude:
   - Rakefile
   - README.md
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/anton_bw_circle.png
+
 collections:
   portfolio:
     output: true
@@ -66,4 +72,4 @@ collections:
     permalink: /portfolio/:title
 
 sass:
-  quiet_deps: true  # Do not log warnigns from dependencies
+  quiet_deps: true  # Do not log warnings from dependencies
