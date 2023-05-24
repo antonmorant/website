@@ -9,11 +9,11 @@ I once heard that the most one can ask of a person is that they live their lives
 ### #1 Truth
 Be honest even when it's not easy. Especially when it's not easy. Be truthful to yourself and with others. Value and promote transparency. Earn trust. Do what you say you will.
 
-### #2 Freedom
-Know that you cannot be happy if you are not free. Exercise your freedom and protect that of others. Understand that your freedom ends where their rights start.
+### #2 Spirit
+Commit wholeheartedly to everything you do. Give it your all - no more, no less. Rise to challenges without fear nor pride. Practice until perfect, don't fake it til you make it. Own your successes and your mistakes. Be utterly humble, for true spirit implies knowing your limitations.
 
-### #3 Spirit
-Commit wholeheartedly to everything you do. Give it your all - no more, no less. Rise to challenges without fear nor pride. Practice until perfect, not fake it til you make it. Own your successes and your mistakes. Be utterly humble, for true spirit implies knowing your limitations.
+### #3 Legacy
+Be a part of something bigger than you. Be a link between those who came before and those who will come next. Be thankful to your seniors and patient with your juniors. Teach what you know. Leave things better than you found them.
 
 ### #4 Curiosity
 Always keep hungry. Learn. Look at situations from new angles. Ask people what they think, especially those who are most different from you. Speak less and listen more. Wonder. Press buttons just to see what they do.
