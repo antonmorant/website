@@ -7,14 +7,14 @@ description: For the puzzle player looking for an exciting new challenge (iOS).
 website: https://puzzlepal.com/
 ---
 
-{: .float-right }
-{% include video.html filename="puzzlepal_preview.mp4" %}
-
 ## The app
 
 [PuzzlePal](https://puzzlepal.com) is an app that offers a variety of free and fun puzzles designed to improve cognitive skills while eliminating boredom. With a constantly expanding library of puzzles and games, users can choose from different categories to improve their skills in words, logic, and visuals. The app features puzzles like Nonograms, WordWheel, Bridges, Camping, ColorLink, WordPile, and Tectonic, with varying levels of difficulty to automatically adapt to the user's skill level.
 
 Published by [Keesing MG](https://www.keesing.com), PuzzlePal also provides insights about the user's play history to track their progress and challenge friends, and a difficulty system that automatically adapts to their skill level, from Basic to Expert. With its beautiful modern design, PuzzlePal is guaranteed to keep users entertained for hours while exercising their brains at the same time.
+
+{: .featured-video }
+{% include video.html filename="puzzlepal_preview.mp4" %}
 
 ## My Contributions
 
