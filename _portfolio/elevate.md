@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Elevate
-id: elevate
 index: 1
 description: Personalized brain training for real-world skills (iOS, Android). Winner of Apple's App of the Year.
-website: https://elevateapp.com/
 ---
 
 ## The app
