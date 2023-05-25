@@ -2,7 +2,7 @@
 layout: home
 ---
 
-{: .img-center }
+{: .img-headshot }
 ![Author]({{ "/images/anton_bw_circle.png" | relative_url }})
 
 Welcome to my website! I'm Antón, a San Francisco-based software engineer with 12+ years of experience using computers to solve real-world problems.

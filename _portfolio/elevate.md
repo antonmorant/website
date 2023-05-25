@@ -7,14 +7,14 @@ description: Personalized brain training for real-world skills (iOS, Android). W
 website: https://elevateapp.com/
 ---
 
-{: .float-right }
-{% include video.html filename="elevate_preview.mp4" %}
-
 ## The app
 
 [Elevate](https://www.elevateapp.com) is a personalized brain-training app designed to improve your skills and boost your confidence, productivity, and earning power. With 40+ games teaching real-world skills in math, reading, writing, speaking, and recall, Elevate is like having a personal coach for your brain. The program tracks your performance and adjusts to your skill level, allowing you to measure your progress and compare with others.
 
 Published by [Elevate Labs](https://elevateapp.com/about), Elevate's games are designed in collaboration with experts and backed by independent analysis, so users can trust that they're receiving the best training possible. Apple named Elevate the Best iPhone App of the Year in 2014, cementing its reputation as the premier brain-training app. Since its launch, Elevate has helped over 50 million people improve their communication and math skills.
+
+{: .featured-video }
+{% include video.html filename="elevate_preview.mp4" %}
 
 ## My Contributions
 
