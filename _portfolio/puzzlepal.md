@@ -1,10 +1,8 @@
 ---
 layout: page
 title: PuzzlePal
-id: puzzlepal
 index: 3
 description: For the puzzle player looking for an exciting new challenge (iOS).
-website: https://puzzlepal.com/
 ---
 
 ## The app

@@ -1,10 +1,8 @@
 ---
 layout: page
 title: OneHaiku
-id: onehaiku
 index: 4
 description:  Daily haikus delivered to your phone (iOS). Personal project.
-website:
 ---
 
 ## The app
