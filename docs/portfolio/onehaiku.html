@@ -17,12 +17,12 @@
 <meta property="og:site_name" content="Antón Morant Consulting" />
 <meta property="og:image" content="https://morant.dev/images/anton_bw_circle.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-05-25T09:45:14-07:00" />
+<meta property="article:published_time" content="2023-06-16T17:12:03+02:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://morant.dev/images/anton_bw_circle.png" />
 <meta property="twitter:title" content="OneHaiku" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Antón Morant"},"dateModified":"2023-05-25T09:45:14-07:00","datePublished":"2023-05-25T09:45:14-07:00","description":"Daily haikus delivered to your phone (iOS). Personal project.","headline":"OneHaiku","image":"https://morant.dev/images/anton_bw_circle.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://morant.dev/portfolio/onehaiku"},"url":"https://morant.dev/portfolio/onehaiku"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Antón Morant"},"dateModified":"2023-06-16T17:12:03+02:00","datePublished":"2023-06-16T17:12:03+02:00","description":"Daily haikus delivered to your phone (iOS). Personal project.","headline":"OneHaiku","image":"https://morant.dev/images/anton_bw_circle.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://morant.dev/portfolio/onehaiku"},"url":"https://morant.dev/portfolio/onehaiku"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://morant.dev/feed.xml" title="Antón Morant Consulting" /><!-- Customizations -->
 
@@ -55,7 +55,7 @@
   <div class="post-content">
     <h2 id="the-app">The app</h2>
 
-<p>OneHaiku is a minimalistic iOS app created with the goal of building and releasing an app from scratch. Developed as a one-man project, it has turned out to be a unique learning opportunity as I actively continue working on it.</p>
+<p>OneHaiku is a minimalistic iOS app created with the goal of building and releasing an app from scratch. Developed as a one-man project, it has turned out to be a unique learning opportunity and a deeply satisfying one.</p>
 
 <p>Every day, users can open OneHaiku to unveil a carefully curated haiku poem individually picked for them. The design and functionality of the app are inspired by zen simplicity, allowing users to savor the beauty of the moment and then let go and continue about their day. This creates a small space for mindfulness and reflection in their daily lives.</p>
 
@@ -68,12 +68,13 @@
 <h2 id="technical-details">Technical details</h2>
 
 <h3 id="frontend">Frontend</h3>
+
 <p>The front-end is built with Swift and UIKit. I originally started the app using SwiftUI, but in agreement with what I perceive to be the general community consensus, SwiftUI is not quite fully mature yet. While some of the features were really pleasant to work with (layouts, previews), I found the framework simply did not support creating animations with the level of complexity and control the project required. The initialy prototype was therefore rewritten into UIKit, which was a surprisingly easy transition. Today I am quite satisfied with this choice.</p>
 
 <p>Additional details:</p>
 <ul>
   <li>Programmatic UI: Using SnapKit for autolayout.</li>
-  <li>Programmatic animations: Instead of a 3rd-party tool, I took this opportunity to familiarize myself with vanilla iOS animations. The app uses UIView and CoreAnimation layer animations.</li>
+  <li>Programmatic animations: Instead of relying on a 3rd-party tool, I took this opportunity to familiarize myself with vanilla iOS animations. The app uses UIView and CoreAnimation layer animations.</li>
   <li>Haptics: Given the deliberate simplicity of the app’s functionality, animations &amp; haptics play a key role in making the haiku reveal moment feel special.</li>
   <li>Asynchronous functions: After trying out various alternatives, async/await/throws turned out to be the most natural for the networking layer’s API.</li>
   <li>User accounts: The app deliberately does not have an onboarding or signup flow. When the user first oppens the app, a user account is automatically created for them and credentials are stored for future authentication (which also happens transparently). Logout/login functionality will be added in the future.</li>
@@ -82,6 +83,7 @@
 </ul>
 
 <h3 id="backend">Backend</h3>
+
 <p>The backend is built with Ruby on Rails. Cloud deployment and resources, including web server machines and a Postgres database, were initially managed with Heroku and later migrated to Fly.io. The backend’s main responsibilities are creation and authentication of users, selection of haikus, and storing haiku ratings.</p>
 
 <p>The rails app provides a REST API that allows to create and authenticate users, get a user’s haiku for the day, and submit and update ratings. It also serves miscellaneous static pages requried for App Store publishing (e.g. the app’s privacy policy or customer support details).</p>
@@ -92,13 +94,18 @@
 <ul>
   <li>Environments: Production and staging environments are kept separate to facilitate QA testing. Client debug builds use staging, while release builds use production.</li>
   <li>Continuous integration: Unit tests (RSpec) and linting (RuboCop) are automated via GitHub Actions.</li>
-  <li>Security: The backend app admits only HTTPS connections and uses a custom domain with the corresponding TSL certificates.</li>
+  <li>Security: The backend app admits only HTTPS connections and uses a custom domain with TSL certificates.</li>
   <li>Error reporting: Using sentry for error reporting and performance monitoring.</li>
-  <li>Admin dashboard: The backend uses ActiveAdmin to provide an administration dashboard in order to easily create haikus and monitor basic user activity. For instance, it displays the top 5 users by count of seen haikus together with the total count of haikus. This ensures new content continues to be created timely and users don’t see repeated haikus.</li>
+  <li>Admin dashboard: The backend uses ActiveAdmin to provide an administration dashboard in order to easily create haikus and monitor status. For instance, it displays the top 5 users by count of seen haikus together with the total count of haikus. This ensures new content continues to be created timely and users don’t see repeated haikus.</li>
 </ul>
 
 <h2 id="release-status">Release status</h2>
-<p>The app is currently in closed beta, distributed via TestFlight. Public release pending - watch this space for updates!</p>
+
+<p>OneHaiku is now available for free in the App Store!</p>
+
+<p><a href="https://apps.apple.com/us/app/onehaiku/id6448963020?itsct=apps_box_badge&amp;itscg=30200">
+	<img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1686700800" alt="Download on the App Store" style="display: block; margin: auto; border-radius: 13px; height: 60px;" />
+</a></p>
 
   </div>
 
