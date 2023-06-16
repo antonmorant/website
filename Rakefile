@@ -1,6 +1,6 @@
 desc "Build and serve jekyll site for local testing"
 task :serve do
-  `jekyll serve --baseurl=""`
+  sh 'jekyll serve --baseurl=""'
 end
 
 desc "Build jekyll site and copy it to /docs for deploying"
